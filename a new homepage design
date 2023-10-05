@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Website</title>
+    <style>
+        /* Reset some default styles for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set a background image */
+        body {
+            background-image: url('music-background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        /* Create a navigation bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Create a header section */
+        header {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        /* Create a featured section */
+        .featured {
+            text-align: center;
+            padding: 60px 0;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .featured h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .featured p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        /* Create a call-to-action button */
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 24px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ff5500;
+        }
+
+        /* Create a responsive layout */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 60px 0;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .featured {
+                padding: 40px 0;
+            }
+
+            .featured h2 {
+                font-size: 28px;
+            }
+
+            .featured p {
+                font-size: 18px;
+            }
+
+            .cta-button {
+                font-size: 20px;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Albums</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Music Website</h1>
+        <p>Discover the latest music, artists, and events.</p>
+    </header>
+
+    <div class="featured">
+        <h2>Featured Music</h2>
+        <p>Listen to the hottest tracks from top artists.</p>
+        <a href="#" class="cta-button">Explore Music</a>
+    </div>
+</body>
+</html>
